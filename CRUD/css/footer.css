@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#footer {
+  padding: 15px;
+  width: 350px;
+  text-align: center;
+  position: fixed;
+  display: block;
+  bottom: 5px;
+  right: 5px;
+  background-color: #006494;
+  border-radius: 1em;
+  opacity: .9;
+}
+
+#footer:hover {
+  opacity: 1;
+}
+
+#footer a, p {
+  font-size: 1.2em;
+  color: #13293D;
+}
+
+#footer p {
+  display: inline;
+}
+
+#footer a {
+  border: 1px solid #13293D;
+  padding: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 1em
+}
+
+#footer a:hover {
+  border: none;
+  text-decoration: underline;
+}
